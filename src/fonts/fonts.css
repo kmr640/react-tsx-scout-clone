@@ -1,0 +1,36 @@
+/* @font-face {
+  font-family: "GT America Thin";
+  src: url("./GT-America-Standard-Thin-Trial.otf") format("opentype");
+  font-weight: 300;
+} */
+
+@font-face {
+  font-family: "GT America Regular";
+  src: url("./GT-America-Standard-Regular-Trial.otf") format("opentype");
+  font-weight: 400;
+}
+
+/* @font-face {
+  font-family: "GT America Medium";
+  src: url("./GT-America-Standard-Medium-Trial.otf") format("opentype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "GT America Bold";
+  src: url("./GT-America-Standard-Bold-Trial.otf") format("opentype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "GT America Black";
+  src: url("./GT-America-Standard-Black-Trial.otf") format("opentype");
+  font-weight: 900;
+} */
+
+@font-face {
+  font-family: "Work-sans";
+  src: url("Work-Sans.ttf.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}

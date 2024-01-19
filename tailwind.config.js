@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./index.html", "./src/**/*.{ts,tsx}"],
+  content: ["./index.html", "./src/**/*.{ts,tsx,js,jsx}"],
   mode: "jit",
   theme: {
     extend: {
@@ -14,7 +14,8 @@ module.exports = {
 
       //TODO: change font family
       fontFamily: {
-        poppins: ["Poppins", "sans-serif"],
+        worksans: ["Work-sans", "sans-serif", "Arial"],
+        gtamerica: ["GT America Regular", "Helvetica", "sans-serif", "Arial"],
       },
     },
     screens: {
