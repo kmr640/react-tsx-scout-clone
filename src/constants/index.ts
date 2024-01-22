@@ -1,7 +1,5 @@
 //TODO: for animations on the hero section i need to add an array
 //TODO: i need to make a seperate nav for the nav sections but it should be repeating
-//FIXME: ignore the error for now
-//TODO: make interfaces a type of
 import {
   arrowup,
   arrowdown,
@@ -13,10 +11,12 @@ import {
   compass,
 } from "../assets"
 
-interface NavLink {
+type Base = {
   id: string
-  title: string
+  title?: string
 }
+
+type NavLink = Base
 
 export const navLinks: NavLink[] = [
   {
@@ -41,10 +41,7 @@ export const navLinks: NavLink[] = [
   },
 ]
 
-interface NavCta {
-  id: string
-  title: string
-}
+type NavCta = Base
 
 export const navCallToAction: NavCta[] = [
   {
@@ -57,8 +54,7 @@ export const navCallToAction: NavCta[] = [
   },
 ]
 
-interface Stats {
-  id: string
+type Stats = Base & {
   value: number
   symbol: string
   icon: string
@@ -97,8 +93,7 @@ export const stats: Stats[] = [
   },
 ]
 
-interface Grid {
-  id: string
+type Grid = Base & {
   content: string
 }
 
@@ -121,8 +116,7 @@ export const gridSection: Grid[] = [
   },
 ]
 
-interface Marquee {
-  id: string
+type Marquee = Base & {
   img: string
 }
 
@@ -153,10 +147,7 @@ export const socialProof: Marquee[] = [
   },
 ]
 
-interface FooterProduct {
-  id: string
-  title: string
-}
+type FooterProduct = Base
 
 export const footerProduct: FooterProduct[] = [
   {
@@ -189,10 +180,7 @@ export const footerProduct: FooterProduct[] = [
   },
 ]
 
-interface FooterCompare {
-  id: string
-  title: string
-}
+type FooterCompare = Base
 
 export const footerCompare: FooterCompare[] = [
   {
@@ -217,10 +205,7 @@ export const footerCompare: FooterCompare[] = [
   },
 ]
 
-interface FooterCompany {
-  id: string
-  title: string
-}
+type FooterCompany = Base
 
 export const footerCompany: FooterCompany[] = [
   {
@@ -249,9 +234,7 @@ export const footerCompany: FooterCompany[] = [
   },
 ]
 
-interface FooterSupport {
-  id: string
-  title: string
+type FooterSupport = Base & {
   icon?: string
   status?: string
 }

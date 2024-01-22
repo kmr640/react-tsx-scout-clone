@@ -1,6 +1,5 @@
 import Navbar from "./Navbar"
 import Features from "./Features"
-
 import Business from "./Business"
 import SocialProof from "./SocialProof"
 import CTA from "./CTA"
