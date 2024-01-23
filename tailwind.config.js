@@ -4,18 +4,15 @@ module.exports = {
   mode: "jit",
   theme: {
     extend: {
-      //TODO: change colors to website
       colors: {
-        primary: "#00040f",
-        secondary: "#00f6ff",
-        dimWhite: "rgba(255, 255, 255, 0.7)",
-        dimBlue: "rgba(9, 151, 124, 0.1)",
+        primary: "#fff",
+        secondary: "#FAF8F7",
+        PalatinateBlue: "#304DDB",
       },
-
-      //TODO: change font family
       fontFamily: {
         worksans: ["Work-sans", "sans-serif", "Arial"],
         gtamerica: ["GT America Regular", "Helvetica", "sans-serif", "Arial"],
+        ibarra: ["IbarraRealNova-Regular", "Helvetica", "sans-serif", "Arial"],
       },
     },
     screens: {

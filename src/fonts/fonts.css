@@ -1,3 +1,5 @@
+/* TODO: change to google fonts its best */
+
 /* @font-face {
   font-family: "GT America Thin";
   src: url("./GT-America-Standard-Thin-Trial.otf") format("opentype");
@@ -33,4 +35,9 @@
   src: url("Work-Sans.ttf.woff") format("woff");
   font-weight: normal;
   font-style: normal;
+}
+
+@font-face {
+  font-family: "IbarraRealNova-Regular";
+  src: url("IbarraRealNova-Regular.ttf") format("truetype");
 }
