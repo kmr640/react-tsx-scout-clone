@@ -10,9 +10,8 @@ module.exports = {
         PalatinateBlue: "#304DDB",
       },
       fontFamily: {
-        worksans: ["Work-sans", "sans-serif", "Arial"],
-        gtamerica: ["GT America Regular", "Helvetica", "sans-serif", "Arial"],
-        ibarra: ["IbarraRealNova-Regular", "Helvetica", "sans-serif", "Arial"],
+        notosans: ["Noto Sans", "sans-serif", "Arial"],
+        davidlibre: ["David Libre", "serif"],
       },
     },
     screens: {

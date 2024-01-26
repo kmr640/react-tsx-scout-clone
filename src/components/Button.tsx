@@ -1,5 +1,13 @@
 import React from "react"
 
+// const Button = ({ heroButton, children }: ButtonProps) => {
+//   return (
+//     <button className={`bg-PalatinateBlue text-white font-bold rounded ${heroButton}`}>
+//       {children}
+//     </button>
+//   );
+// };
+
 type ButtonProps = {
   heroButton?: string
   children?: string
