@@ -9,8 +9,12 @@ import compass from "./compass.svg"
 import heroimage from "./heroimage.webp"
 import lookingforhelp from "./lookingforhelp.webp"
 import heroqna from "./heroqna.webp"
+import bentobox1 from "./bentobox1.avif"
+import bentobox2 from "./bentobox2.avif"
 
 export {
+  bentobox1,
+  bentobox2,
   arrowup,
   arrowdown,
   mixmax,
